@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - NGAH EFOUBA PIERRE MARIE | Graphiste</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo-section">
+                <h1 class="brand">NGAH EFOUBA</h1>
+                <p class="subtitle">Graphiste Débutant</p>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="contact-hero">
+        <div class="container">
+            <h2>Contactez-moi</h2>
+            <p>Vous avez un projet ou une question ? Je serais ravi de discuter avec vous.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <div class="contact-wrapper">
+                <!-- Contact Form -->
+                <div class="contact-form-section">
+                    <h3>Formulaire de Contact</h3>
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Nom Complet *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Adresse Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Téléphone</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="subject">Sujet *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-btn">Envoyer le Message</button>
+                        <div class="form-status" id="formStatus"></div>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info-section">
+                    <h3>Informations de Contact</h3>
+                    
+                    <div class="info-box">
+                        <h4>Téléphone</h4>
+                        <p><a href="tel:+237670819952">+237 670819952</a></p>
+                        <p><a href="tel:+237698506113">+237 698506113</a></p>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Localisation</h4>
+                        <p>Douala, Bilongue</p>
+                        <p>Cameroun</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Agence Partenaire</h4>
+                        <p><strong>Glau Studios</strong></p>
+                        <p>Agence de Design Créatif</p>
+                        <p>Douala, Cameroun</p>
+                    </div>
+
+                    <div class="info-box">
+                        <h4>Disponibilité</h4>
+                        <p>Disponible pour des projets de design graphique</p>
+                        <p>Réponse sous 24-48h</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Optional - vous pouvez ajouter une vraie carte plus tard) -->
+    <section class="location-section">
+        <div class="container">
+            <h3>Localisation</h3>
+            <div class="location-info">
+                <p>📍 <strong>Douala</strong>, Quartier Bilongue, Cameroun</p>
+                <p>Une agence créative dynamique dédiée à vos projets de design</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>NGAH EFOUBA</h3>
+                    <p>Graphiste | Glau Studios</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Téléphone: <a href="tel:+237670819952">+237 670819952</a></p>
+                    <p>Téléphone: <a href="tel:+237698506113">+237 698506113</a></p>
+                </div>
+                <div class="footer-section">
+                    <h3>Localisation</h3>
+                    <p>Douala, Bilongue</p>
+                    <p>Cameroun</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 NGAH EFOUBA - Portfolio Graphiste. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
